@@ -250,17 +250,15 @@
 .boldtext{
     font-size: 4rem;
     display: block;
-    font-family: 'Lato', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight:bolder !important;
 }
-.normaltext{
-    font-size: 2em;
-    font-family: 'Lato', sans-serif;
-}
+
 .home-text{
     max-width: 100%;
     text-align: left;
     width: 100%;
-    color: #fff;
+    color: #000000;
 }
 .points{
     width: 100%;
@@ -400,10 +398,7 @@
 .from-group{
     margin-bottom: 2px;
 }
-.register .card .form-control:focus, .register .form-control select:focus{
-    box-shadow: none;
-    border: 2px solid #6609f1;
-}
+
  /* media */
 @media (max-width:528px){
     .home-left{
@@ -435,7 +430,7 @@
         border-radius: 0px;
         background: transparent;
         padding: 20px 5px;
-        color: #fff;
+        color: #080808;
         max-height: fit-content;
     }
     .btn-container button{
@@ -443,9 +438,15 @@
         padding: 10px 5px;
         width: 100%;
     }
+    .card-header-text{
+        color: #000;
+    }
    
 }
 @media (max-width:600px){
+    .card-header-text{
+        color: #000;
+    }
     .border-colored{
         min-height: 90vh;
     }
@@ -454,7 +455,7 @@
     }
     .card-header-text{
         text-align: center;
-        color: #fff;
+        color: #000000;
         margin-bottom: 40px;
     }
     .form-control{
@@ -470,6 +471,9 @@
         border-radius: 5px;
         animation:  group-anim 1s linear;
         z-index: 10;
+    }
+    .get-in-touch button{
+        width: 100%;
     }
     .form-group:before{
         content:"";
@@ -528,6 +532,9 @@
     }
     }
 @media (max-width:998px){
+    .card-header-text{
+        color: #000;
+    }
     .home-left{
         max-height: fit-content;
         min-height: fit-content;

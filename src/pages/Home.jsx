@@ -31,7 +31,7 @@ function Home() {
       <Companies/>
       <Skills/>
       <Training/>
-      <Students/> 
+      {/* <Students/>  */}
       <Placed/>
 
       <Adwantage/>

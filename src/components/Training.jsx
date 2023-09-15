@@ -51,8 +51,11 @@ function Training() {
                 <i class="bi bi-people"></i>
                 </div>
                 <div className="card-body">
-                    <span className="fs-3">Class Room Training</span>
+                    <span className="fs-3 text-black d-block mb-2">Class Room Training</span>
                     <p>In-house training / classroom training is livelier with our excellent infrastructure and modern facilities and face to face interaction with our trainers.</p>
+                    <div className="go-next-training-card">
+                    <i class="bi bi-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -62,8 +65,11 @@ function Training() {
                 <i class="bi bi-camera-video"></i>
                 </div>
                 <div className="card-body">
-                    <span className="fs-3">Online Training</span>
+                    <span className="fs-3 text-black d-block mb-2">Online Training</span>
                     <p>Online training lets you compete your training from any place in the world. Learn your desired course while sitting in your home.</p>
+                    <div className="go-next-training-card">
+                    <i class="bi bi-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,8 +79,11 @@ function Training() {
                 <i class="bi bi-laptop"></i>
                 </div>
                 <div className="card-body">
-                    <span className="fs-3">Corporate Training</span>
+                    <span className="fs-3 text-black d-block mb-2">Corporate Training</span>
                     <p>Our trainers provide corporate training, so you can stay up to date with the latest developments in your field..</p>
+                    <div className="go-next-training-card">
+                    <i class="bi bi-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -84,8 +93,11 @@ function Training() {
                 <i class="bi bi-building-check"></i>
                 </div>
                 <div className="card-body">
-                    <span className="fs-3">Campus Training</span>
+                    <span className="fs-3 text-black d-block mb-2">Campus Training</span>
                     <p>Be Practical conducts job skill training programs for college students. It helps college students get trained and find their desired job.</p>
+                    <div className="go-next-training-card">
+                    <i class="bi bi-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>

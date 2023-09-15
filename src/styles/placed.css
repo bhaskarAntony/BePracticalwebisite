@@ -189,6 +189,9 @@
     .placed{
         min-height: 50vh;
     }
+    .certificate-text{
+        padding: 10px;
+    }
     .badge-center-text{
         padding: 18px;
     }

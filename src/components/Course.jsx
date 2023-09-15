@@ -13,6 +13,9 @@ function Course() {
       <div className="row">
         <div className="col-12 col-md-12 col-lg-6">
             <div className="course-left">
+            <span className='brand fs-2 mb-3' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">@BE Practical</span>
                 <h1 className='course-big-text'  data-aos="fade-up"
      data-aos-duration="500">We are providing feautured courses</h1>
                 <p className="course-info-text"  data-aos="fade-up"

@@ -405,6 +405,9 @@
 .from-group{
     margin-bottom: 2px;
 }
+.join-home-btn{
+    border-radius: 100px !important;
+}
 
  /* media */
 @media (max-width:528px){
@@ -444,6 +447,10 @@
         font-size: 0.8rem;
         padding: 10px 5px;
         width: 100%;
+    }
+    .join-home-btn{
+        width: 100% !important;
+        margin-top: 10px;
     }
     .card-header-text{
         color: #000;
@@ -537,6 +544,10 @@
             transform: translateY(0);
         }
     }
+    .join-home-btn{
+        width: 100% !important;
+        margin-top: 10px;
+    }
     }
 @media (max-width:998px){
     .card-header-text{
@@ -551,4 +562,9 @@
         height: fit-content;
         min-height: fit-content;
     } */
+}
+@media(max-width:980px){
+    .join-home-btn{
+        margin-top: 10px;
+    }
 }

@@ -119,7 +119,7 @@
         align-items:start !important;
     }
     .dropdown-menu{
-        min-width: 60vh !important;
+        min-width: 50vh !important;
     }
     .navbar .dropdown-menu {
         left: 0;

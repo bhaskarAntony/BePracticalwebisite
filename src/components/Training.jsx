@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/training.css'
+import placementvideo from '../images/placement-video.mp4'
     
 function Training() {
   return (
@@ -37,7 +38,7 @@ function Training() {
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 border-layout2">
                   <div className="training-right">
-                        <img src="https://www.pngarts.com/files/3/Student-Transparent-Images.png" alt="" />
+                      <video src={placementvideo} autoPlay loop  controls></video>
                     </div>
                   </div>
             </div>

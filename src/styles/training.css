@@ -18,16 +18,18 @@
     min-height: 20vh;
 }
 .training-left, .training-right{
-    padding: 30px;
+    /* padding: 30px; */
     overflow: hidden;
     height: 100%;
     border-radius: 20px;
     background: #FF4646;
+    margin-bottom: 20px;
 
 }
-.training-right img{
+.training-right video{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .border-layout1{
     background-color: rgb(255, 255, 255);
@@ -133,6 +135,10 @@
         min-height: fit-content;
         max-height: fit-content;
         height: fit-content;
+    }
+    .training-left{
+        padding: 0;
+        margin-bottom: 20px !important;
     }
     
 }

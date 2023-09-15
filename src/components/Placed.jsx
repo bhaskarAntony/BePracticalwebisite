@@ -1,6 +1,7 @@
 import React from 'react';
 import AutoScrollCarousel from './AutoScrollCarousel'; // Import your component
 import AutoScrollCarousel2 from './AutoScrollCarousel'; // Import your component
+
 import '../styles/placed.css'
 import i1 from '../images/1.jpg'
 import i2 from '../images/2.jpg'
@@ -287,8 +288,8 @@ const items2 = [
 
 function Placed() {
   return (
-    <section>
-    <div className="placed-header p-5 text-center bg-white">
+    <section className='bg-white'>
+    <div className="placed-header p-5 text-center">
 
     <span className="fs-1"  data-aos="fade-up">Placed Our Students</span>
     </div>

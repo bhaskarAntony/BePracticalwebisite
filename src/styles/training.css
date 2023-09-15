@@ -1,0 +1,299 @@
+.training{
+    min-height: 90vh;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.training-top{
+   height: 50vh;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #000;
+    /* border-bottom: 4px solid #000; */
+}
+.training-bottom{
+    min-height: 20vh;
+}
+.training-left, .training-right{
+    padding: 30px;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 20px;
+    background: #FF4646;
+
+}
+.training-right img{
+    width: 100%;
+    height: 100%;
+}
+.border-layout1{
+    background-color: rgb(255, 255, 255);
+    border: 2px soild #000;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+}
+.border-layout2{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 2px soild #000;
+    border-radius: 0px 20px 20px 0px;
+}
+.training-left h1{
+    font-size: 3.7em;
+
+}
+.training-left{
+    height: 100%;
+    position: relative;
+
+}
+.training-left{
+    background: #A0D8B3;
+}
+.training-right{
+    background: #FFB740;
+}
+.train-card{
+    /* box-shadow: 0px 0px 10px #d6feef; */
+    padding: 0 10px;
+    min-height: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    z-index: 100;
+}
+/* .train-card:hover{
+    background-color: #B3E5BE;
+    transition: 0.5s;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+} */
+.train-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: skewX(95deg) scale(0);
+    z-index: 1;
+    opacity: 0;
+}
+
+.training-card p{
+    margin-top: 10px;
+}
+.training-card1{
+    background: #7DCE94;
+}
+.training-card2{
+    background: #FFEBEB;
+}
+.training-card3{
+    background: #E8D4B4;
+}
+.training-card4{
+    background: #FE8A71;
+}
+.train-card [class*="bi"]{
+    font-size: 3em;
+    padding: 10px;
+    border-radius: 100px;
+    background: #FFB740;
+    width: 130px !important;
+    color: #fff;
+    height: 130px !important;
+    margin-left: -40px;
+    margin-top: -30px;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-bottom: 5px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+}
+.train-card:hover [class*="bi"]{
+    background-color: #FFF5E0;
+} 
+.text-header{
+    margin-top: 30px;
+}
+@media (max-width:768px){
+    .training-top{
+        min-height: fit-content;
+        max-height: fit-content;
+        height: fit-content;
+    }
+    
+}
+.train-card:hover::before{
+    opacity: 1;
+    transform: skewX(0deg) scale(1);
+    background: #FFB740;
+    z-index: -10;
+    transition: 0.6s;
+    cursor: pointer;
+    color: #171717 !important;
+}
+.train-card:hover{
+    color: #fff !important;
+}
+.train-card:hover p{
+    color: #fff !important;
+}
+.train-card:hover [class*="bi"]{
+    background-image: linear-gradient(#ffffff, #ffffff);
+    color: #2e1065;
+}
+/* .train-card::before:hover{
+    opacity: 1;
+    transform: skewX(0deg) scale(1);
+    background-color: #B3E5BE;
+    z-index: -1;
+    transition: 1s;
+} */
+.battery-container{
+    width: 100%;
+    height: 100%;
+    background: #F3DEBA;
+    border-radius: 10% 100% 0 0;
+    margin-left: -40px;
+    padding: 20px;
+    animation: hider 5s linear infinite;
+    animation-delay: 2s;
+}
+.battery{
+    width: 68%;
+    height: 150px;
+    background-color: #7cff98;
+    position: relative;
+    background: #2e2e2e;
+    border: 8px solid #fff;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 10px #d3fef8; */
+
+}
+.battery::after{
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 20px;
+    right: -25px;
+    border-radius: 0px 10px 10px 0px;
+    top: 15%;
+    background-color: #fff;
+}
+.battery::before{
+    content: "Charge.Your.Skills..";
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-top: 40px;
+    justify-content: center;
+    font-size: 1.7em;
+    letter-spacing: 5px;
+    overflow: hidden;
+    position: absolute;
+    height: 92%;
+    width: 97%;
+    left: 6px;
+    border-radius: 0px 10px 10px 0px;
+    top: 6px;
+    background-color: #59ec94;
+    border-radius: 10px;
+    animation: battery-charge 4s linear;
+    /* animation-delay: 2s; */
+}
+*{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+@keyframes battery-charge{
+    0%{
+        width: 0%;
+        display: block;
+        background-color: #ff5947;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+        background-color: #59ec94;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+        display: none;
+    }
+}
+@keyframes anim-text{
+    0%{
+       opacity: 0;
+    }
+    25%{
+        opacity: 0.2
+    }
+    50%{
+        opacity: 0.4;
+    }
+    75%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes hider{
+    from{
+        display: block;
+    }
+    to{
+        display: none;
+    }
+}
+.training-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: anim-text 5s ease-in-out infinite;
+    /* animation-delay: 5s !important; */
+    background-color: #7cff98;
+    z-index: 100;
+    height: 100%;
+    border-radius: none;
+    padding: 20px;
+    width: 100%;
+    display: none;
+}
+@media (max-width:768px){
+    .battery{
+        max-height: 100px;
+    }
+    .battery::before{
+        font-size: 1.3em;
+        padding: 10px;
+        padding-top: 20px;
+    }
+}
+@media (max-width:528px){
+    .battery{
+        max-height: 100px;
+        width: 100%;
+    }
+    .battery::before{
+        font-size: none;
+        padding: 10px;
+        padding-top: 20px;
+    }
+}

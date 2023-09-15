@@ -1,0 +1,10 @@
+.scroll-slide-element {
+    opacity: 0;
+    transform: translateY(30px); /* Initial position, adjust as needed */
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .scroll-slide-element.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }

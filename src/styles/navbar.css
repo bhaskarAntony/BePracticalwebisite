@@ -1,0 +1,267 @@
+.right {
+    display: flex;
+    align-items: center;
+}
+*{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+header {
+    backdrop-filter: blur(10px);
+    background-color: #600dae4f;
+    position: fixed;
+    top: 0;
+    height: fit-content;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* box-shadow: 0px 5px 10px #141627; */
+    /* border-bottom: 5px solid #ffffff; */
+    position: relative;
+    max-width: 100%;
+    z-index: 100;
+
+
+}
+.divider-line {
+    height: 1px;
+    opacity: .32;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 50%, rgba(255, 255, 255, 0));
+    padding-right: 0;
+}
+header img{
+     width: 250px;
+    /*position: absolute;
+    background-color: #7cff98;
+    border-radius: 50%;
+    padding: 4%;
+    top: -40px;
+    left: -30px; */
+    /* border: 2px solid #000; */
+    /* border-bottom: 5px solid #000;
+    object-fit: cover; */
+}
+
+.mynavbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:528px){
+    .mynavbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    header{
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+}
+
+.mynavbar .an {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.mega-drop {
+    float: left;
+    overflow: hidden;
+}
+
+.mega-drop .dropbtn {
+    height: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+
+}
+
+.mynavbar a:hover,
+.mega-drop:hover .dropbtn {
+    background-color: rgba(57, 56, 56, 0.421);
+}
+
+.content {
+    /* display: none; */
+    /* min-height: 50vh; */
+    /* height: 0; */
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #ffffff;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 100;
+    overflow: hidden;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+
+.content .header {
+    padding: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.mega-drop:hover .content {
+    /* display: block; */
+    /* min-height: 300px; */
+    height:fit-content ;
+    transition: 0.5s ease-out;
+    opacity: 1;
+    display: block;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.devide {
+    float: left;
+    min-width: 20.33%;
+    min-height: 200px;
+    padding: 10px;
+    /* background-color: #ccc; */
+    height: 250px;
+    display: flex;
+    align-items: left;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.devide a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    /* text-align: left; */
+}
+
+.devide a:hover {
+    background-color: #ff9980;
+    color: #000;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header [class*="bi-list"], header [class*="bi-x-lg"]{
+    display: none;
+    color: #fff;
+    font-size: 1.4em;
+}
+header [class*="bi-list"]:hover, header [class*="bi-x-lg"]:hover{
+    padding: 5px;
+    border: 2px solid #9a76be;
+    font-size: 1.4em;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .devide {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* media  */
+
+@media (max-width:528px){
+    .content{
+        position: inherit;
+        min-width: 100%;
+        border-radius: 10px;
+        min-height: fit-content;
+        overflow: auto;
+    }
+    .rows{
+        min-width: 100%;
+        min-height: fit-content;
+    }
+    .mega-drop:hover .content {
+        /* display: block; */
+        /* min-height: 300px; */
+        max-height: fit-content;
+        transition: 0.5s ease-out;
+        min-width: 100%;
+    }
+    .mega-drop{
+        float: left;
+        text-align: left;
+    }
+    .an{
+        min-width: 100%;
+        text-align: left;
+        float: left;
+        display: flex;
+        justify-content: start;
+        
+    }
+    .an:hover{
+        background: white;
+        color: #000;
+    }
+    .mynavbar{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .devide{
+        max-height: fit-content;
+        min-width: 100%;
+        min-height: fit-content;
+    }
+    header .right{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        left: 0;
+        background-color: #6d28d9;
+        height: 0;
+        z-index: 100;
+    }
+    header img{
+        width: 150px;
+    }
+    header{
+        max-height: 70px;
+    }
+    header [class*="bi-list"], header [class*="bi-x-lg"]{
+        display: block !important;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dropbtn{
+        min-width: 100%;
+        float: left;
+        text-align: left;
+    }
+}

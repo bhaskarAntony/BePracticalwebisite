@@ -1,0 +1,127 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Barcode+39+Extended+Text&family=Libre+Franklin&family=Noto+Sans:wght@300&family=Poppins&family=Press+Start+2P&family=Rubik&family=Tilt+Prism&family=Wallpoet&family=Work+Sans:wght@300&display=swap'); */
+*{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.cmain{
+    /* padding: 2% 10px; */
+    min-width: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: #0a0a0a;
+    height: fit-content;
+
+}
+
+.company-list1, .company-list2{
+    display: flex;
+    overflow: hidden;
+    min-height: 200px;
+    padding: 0 20px;
+}
+.company{
+    width: 230px;
+    height: 150px;
+    background-color: rgb(252, 232, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* transform: skew(10deg); */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 10px;
+    /* border: 2px solid #fff; */
+}
+.company img{
+    width: 100%;
+    height: 40%;
+    background-blend-mode:multiply;
+    /* object-fit: cover; */
+    /* object-fit: cover; */
+}
+.scroll1, .scroll2{
+    display: flex;
+    gap: 10px;
+    animation: anim1 40s linear infinite;
+    animation-delay: -40s;
+}
+@keyframes anim1{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-110%);
+    }
+}
+@keyframes anim1-1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes anim2{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+@keyframes text{
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.scroll2{
+    animation: anim2 40s linear infinite;
+    animation-delay: -20s;
+}
+/* .company-list2 .scroll1{
+    animation: anim1-1 40s linear infinite;
+    animation-delay: -40s;
+}
+.company-list2 .scroll2{
+    animation: anim2-2 40s linear infinite;
+    animation-delay: -20s;
+} */
+
+.text{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #0a0a0a;
+    padding:  30px 10px;
+}
+/* .company-list1:hover .company, .company-list2:hover .company{
+    filter: blur(5px);
+    opacity: 0.5;
+} */
+.company-list1 .company:hover, .company-list2 .company:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transition: 0.25s;
+    transform: scale(1.1) skewX(0);
+    cursor: pointer;
+    z-index: 10;
+}
+.company:hover .scroll1, .company:hover .scroll2{
+    animation-play-state: paused;
+}
+.inner{
+    height: fit-content;
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+@media (max-width:998px){
+    .company{
+        width: 200px;
+        height: 150px;
+    }
+    .text h1{
+        padding: 10px !important;
+        font-size: 2em;
+    }
+}

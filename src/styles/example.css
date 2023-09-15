@@ -1,0 +1,43 @@
+/* [class*="fa-"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+ul li:nth-child(odd){
+    background-color: rgba(98, 66, 69, 0.44);
+}
+ul li:nth-child(even){
+    background-color: rgba(83, 23, 23, 0.187);
+}
+.card .header{
+    background-color: rgb(97, 8, 34) !important;
+    color: #fff;
+}
+.form-group{
+    font-weight: bolder;
+}
+.list-group-item{
+    border: 1px solid #fff;
+}
+.card .ok, .download{
+    background: linear-gradient(45deg, rgb(97, 8, 34), rgb(152, 5, 49));
+    border: none;
+    color: #fff;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+button:nth-child(2){
+    background-color: #45424277 !important;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+    width: 100%;
+}
+td, th{
+    border: 2px solid #000;
+} */

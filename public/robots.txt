@@ -1,0 +1,36 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+const hello = ()=>{
+    hello
+}
+const hello1 = ()=>{
+    hello
+}
+
+module.exports = {hello, hello1}//constnt export
+module.exports = hello1 //default export
+
+hellofile
+
+import {hello, hello1} from '../files/script.js'
+import hello from '../files/script.js'
+
+button? red: black
+
+var is colored = true;
+
+import react{useState} from './react'
+const [isRed, setIsRed] = useState(true)
+
+isRed ? red: black
+
+
+
+
+click.isRed(true)
+
+click.colores = true
+
+

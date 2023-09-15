@@ -1,0 +1,16 @@
+.homepage{
+    min-height: 100vh;
+    background-color: #040506;
+    min-width: 100%;
+    max-width: 100%;
+   
+}
+*{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.wave{
+    height: 200px;
+    width: 100%;
+    background: url('../images/wa.png') no-repeat top center;
+    /* background-size: cover; */
+}

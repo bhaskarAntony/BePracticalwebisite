@@ -1,0 +1,131 @@
+.navbar{
+    z-index: 10;
+    background: transparent;
+    backdrop-filter: blur(50px);
+}
+ .navbar .dropdown-menu{
+    left: 0;
+    min-width: 100%;
+}
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.navbar .nav-link{
+    color: #000000;
+    font-size: 1.2em;
+}
+.navbar .nav-link:hover{
+    background-color: rgb(16, 17, 20);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.navbar .nav-item .active{
+    color: rgb(255, 255, 255) !important;
+    background: rgb(16, 17, 20);
+}
+.navbar-brand img{
+    width: 220px;
+}
+.navbar-brand{
+    padding: 0px 20px;
+    position: relative;
+    background-color: #000000;
+    z-index: 2;
+}
+.navbar-brand::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skew(30deg);
+    background-color: #000000;
+    z-index: -1;
+    left: 20px;
+    top: 0;
+}
+.mynavbar{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.dropdown ul{
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 0;
+}
+.dropdown ul li{
+    padding: 10px;
+}
+.dropdown ul li a{
+    min-width: 100%;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+.dropdown ul li a:hover{
+    background-color: #fff;
+    color: #f68607;
+}
+.dropdown span{
+    color: #070707;
+    position: relative;
+}
+.dropdown span::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background: #191919;
+    left: 0;
+    bottom: -10px;
+    border-radius: 10px;
+}
+.divider-line {
+    height: 1.2px;
+    opacity: .32;
+    background-image: linear-gradient(to right, rgba(3, 3, 3, 0), #000000 50%, rgba(0, 0, 0, 0));
+    padding-right: 0;
+}
+.dropdown-menu{
+    background: #fff
+    ;
+}
+.navbar-toggler{
+    color: #fff !important;
+}
+.dropdown-menu  ul{
+    padding: 0 !important;
+    margin-left: -25px;
+}
+
+
+@media (max-width:528px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .mynavbar{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .navbar-collapse{
+        align-items:start !important;
+    }
+    .dropdown-menu{
+        min-width: 100% !important;
+    }
+    .navbar .dropdown-menu {
+        left: 0;
+        min-width: 100%;
+    }
+    .home{
+        padding: 0 !important;
+    }
+    
+}

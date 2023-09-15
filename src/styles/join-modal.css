@@ -31,3 +31,8 @@
     box-shadow: none;
     border: 2px solid #0a85dd !important;
 }
+@media (max-width:768px){
+    .gif-container{
+        display: none;
+    }
+}

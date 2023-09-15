@@ -119,7 +119,7 @@
         align-items:start !important;
     }
     .dropdown-menu{
-        min-width: 100% !important;
+        min-width: 60vh !important;
     }
     .navbar .dropdown-menu {
         left: 0;
@@ -129,4 +129,19 @@
         padding: 0 !important;
     }
     
+}
+@media(max-width:768px){
+    .mynavbar{
+    min-height: 100vh;
+        justify-content: flex-start;
+    }
+    .mynavbar .nav-item{
+        margin-top: 20px;
+    }
+    .mynavbar .nav-link:active{
+        color: #fff !important;
+    }
+    .dropdown-menu{
+        min-width: 60vh !important;
+    }
 }

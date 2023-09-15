@@ -65,7 +65,7 @@ class Homedata extends Component {
 
                 </div>
                 <div className="col-12 col-sm-12 col-md-5">
-            <button className="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Join Now <i className='bu bi-send'></i></button>
+            <button className="btn mt-3 w-100 " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Join Now <i className='bu bi-send'></i></button>
                   
                 </div>
 

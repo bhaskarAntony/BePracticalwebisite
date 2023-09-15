@@ -33,6 +33,7 @@
     .home{
         background: url('../images/blob-mobile.svg') no-repeat center;
          background-size: cover;
+         padding: 0 !important;
     }
 }
 .carousel {

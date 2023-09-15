@@ -3,6 +3,7 @@ import Homedata from './Homedata'; // Import your component
 import '../styles/home.css'
 import Menu from './Menu';
 import homegif from '../images/user-interface.gif'
+import JoinModal from './JoinModal';
 const data = [
   {
     boldtext:"High Paid Salaries & Continuous Career Grouth",
@@ -34,6 +35,7 @@ animatedItems.forEach((item) => {
   return (
     <div className="home-container-black">
       <div className='home container-fluid'>
+      <JoinModal/>
       <Menu/>
       {/* <div className="blur">
 

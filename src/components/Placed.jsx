@@ -289,23 +289,52 @@ function Placed() {
   return (
     <section>
     <div className="placed-header p-5 text-center bg-white">
-    <span className="fs-1">Placed Our Students</span>
+
+    <span className="fs-1"  data-aos="fade-up">Placed Our Students</span>
     </div>
     <div className="placed">
       <div className="row">
       <div className="col-12 col-md-12 col-lg-6 mb-3">
         <div className=" certificate-text">
          <div>
-          <h1 className="c-header">Our Students Working At Top MNC companies.</h1>
-          <button className=' Enquire-btn'>Enquire Now</button>
+         <span className='brand fs-2 mb-3' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">@BE Practical</span>
+          <h1 className="c-header"  data-aos="fade-up">Our Students Working At Top MNC companies.</h1>
+          <button className=' Enquire-btn'  data-aos="fade-up">Enquire Now</button>
          </div>
         </div>
         </div>
         <div className="col-12 col-md-12 col-lg-6">
         <div className="certificate mb-3">
         <AutoScrollCarousel items={items} />
+        <div className="badge-container" data-aos="zoom-out-left">
+        <div className="brand-badge">
+          <span>B</span>
+          <span>E</span>
+          <span>P</span>
+          <span>R</span>
+          <span>A</span>
+          <span>C</span>
+          <span>T</span>
+          <span>I</span>
+          <span>C</span>
+          <span>A</span>
+          <span>L</span>
+
+          <div className="badge-center-text">
+            <div className="badge-circle">
+            <h3 className="fs-3">100%</h3>
+            </div>
+          </div>
+
         </div>
         </div>
+        </div>
+        </div>
+      </div>
+      <div className="placed-section-text-scroll">
+        <marquee behavior="scroll" direction="left"><span>Join Now <span className="text-white">Be Practicle's</span> 100% Placement Programs </span> <button className='btn bg-black text-white'>Join Now</button> </marquee>
       </div>
     </div>
     </section>

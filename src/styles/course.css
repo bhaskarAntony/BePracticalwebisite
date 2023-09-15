@@ -99,7 +99,7 @@
     background-color: aliceblue;
 }
 .course-right .course-card:nth-child(3){
-    background-color: rgb(15, 132, 235);
+    background-color: rgb(229, 71, 92);
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -113,7 +113,7 @@
     grid-row-start: 3;
     width: 100%;
     grid-row-end: 6;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(113, 238, 163);
     color: #1d1d1d;
 }
 .course-right .course-card:nth-child(6){

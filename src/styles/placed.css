@@ -1,11 +1,132 @@
+ /* badge  */
+ /* Style for .brand-badge */
+
+ .badge-container{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+ }
+.brand-badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Set the desired height and width for the circular container */
+    width: 150px;
+    border-radius: 50%; /* Create a circular container */
+    background-color: #eda126; /* Set background color for the circular container */
+    animation: badge-rotate 8s linear infinite;    
+    /* Position the spans relative to the container */
+  }
+  
+  /* Apply rotation to all spans inside .brand-badge */
+  .brand-badge span {
+    position: absolute;
+    transform: rotate(calc(30deg * var(--index))) translate(60px) rotate(calc(-30deg * var(--index))); /* Rotate each span in a circular pattern */
+    --index: 0; /* Set the initial index variable */
+  }
+  
+  /* Style for individual spans */
+  .brand-badge span{
+    font-weight: bold; /* Make odd spans bold for visibility */
+    font-size:1.2rem; /* Set the font size for odd spans */
+    color: rgb(0, 0, 0); /* Set the text color for odd spans */
+  }
+  
+  /* Adjust the number of spans and their positions */
+  .brand-badge span:nth-child(1) {
+    --index: 0;
+  }
+  
+  .brand-badge span:nth-child(2) {
+    --index: 1;
+  }
+  
+  .brand-badge span:nth-child(3) {
+    --index: 2;
+  }
+  
+  .brand-badge span:nth-child(4) {
+    --index: 3;
+  }
+  
+  .brand-badge span:nth-child(5) {
+    --index: 4;
+  }
+  
+  .brand-badge span:nth-child(6) {
+    --index: 5;
+  }
+  .brand-badge span:nth-child(7) {
+    --index: 6;
+  }
+  
+  .brand-badge span:nth-child(8) {
+    --index: 7;
+  }
+  .brand-badge span:nth-child(9) {
+    --index: 8;
+  }
+  
+  .brand-badge span:nth-child(10) {
+    --index: 9;
+  }
+  .brand-badge span:nth-child(11) {
+    --index: 10;
+  }
+  
+  .brand-badge span:nth-child(12) {
+    --index: 11;
+  }
+
+  .badge-center-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    padding: 40px;
+
+  }
+  .badge-circle{
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  @keyframes badge-rotate{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+  }
+  
+  
+  
+  
+
 .placed{
-   min-height: 100vh;
+   min-height: 90vh;
    max-height: fit-content;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-   
+   position: relative;
+   padding-bottom: 50px;
 }
 .placed img{
     width: 100%;
@@ -16,11 +137,11 @@
 }
 .certificate{
     min-height: fit-content;
+    position: relative;
 }
 .certificate-text{
     min-height:100%;
     border-radius: 30px;
-    background-color: #ffffff;
     position: relative;
     overflow: hidden;
     padding: 40px;
@@ -29,6 +150,19 @@
     /* background: url('../images/corcle-placed.svg') no-repeat center; */
 
     background-size: cover;
+}
+.brand{
+    color: rgb(251, 172, 14);
+}
+.placed-section-text-scroll{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(251, 172, 14);
+    width: 100%;
+    border: 2px solid #000;
+    font-size: 1.5rem;
+    padding: 10px;
 }
 .Enquire-btn{
     border: none;
@@ -49,6 +183,11 @@
 @media (max-width:528px){
     .c-header{
         font-size: 2em;
+    }
+}
+@media (max-width:768px){
+    .placed{
+        min-height: 50vh;
     }
 }
 

@@ -14,6 +14,7 @@ import Elite from '../components/Elite'
 import AOS from 'aos';
 import Course from '../components/Course'
 import Students from '../components/Students'
+import JoinModal from '../components/JoinModal'
 
 
 function Home() {
@@ -33,7 +34,6 @@ function Home() {
       <Training/>
       {/* <Students/>  */}
       <Placed/>
-
       <Adwantage/>
       <Footer/>
     </div>

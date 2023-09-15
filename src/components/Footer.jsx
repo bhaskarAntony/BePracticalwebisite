@@ -1,6 +1,5 @@
 import React from 'react'
-import '../styles/footer.css'
-import '../styles/snapscoll.css'
+import '../styles/footer.css'   
 function Footer() {
   return (
     <>

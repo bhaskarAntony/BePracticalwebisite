@@ -13,6 +13,7 @@ import Adwantage from '../components/Adwantage'
 import Elite from '../components/Elite'
 import AOS from 'aos';
 import Course from '../components/Course'
+import Students from '../components/Students'
 
 
 function Home() {
@@ -30,8 +31,10 @@ function Home() {
       <Companies/>
       <Skills/>
       <Training/>
+      <Students/> 
+      <Placed/>
+
       <Adwantage/>
-      {/* <Placed/> */}
       <Footer/>
     </div>
   )

@@ -218,7 +218,6 @@
     color: #fff;
     text-align: center;
     background-color: #000000;
-    border: 1px solid #6d28d9;
     border-radius: 6px;
     justify-content: center;
     align-items: center;
@@ -228,6 +227,7 @@
     transition: background-color .2s;
     border: 2px solid transparent;
     display: flex;
+    font-size: 1rem;
     box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
 }
 .carousel-box{
@@ -440,7 +440,7 @@
         max-height: fit-content;
     }
     .btn-container button{
-        font-size: 1em;
+        font-size: 0.8rem;
         padding: 10px 5px;
         width: 100%;
     }

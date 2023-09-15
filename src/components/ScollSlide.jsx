@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/scrollSlide.css'; // Import your animation styles
 
 function ScollSlide() {
   const [isVisible, setIsVisible] = useState(false);

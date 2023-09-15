@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/companies.css'
-import '../styles/snapscoll.css'
 
 function Companies() {
   const companies1 = [

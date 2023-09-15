@@ -1,0 +1,18 @@
+.students-container{
+    background: url(https://www.freepnglogos.com/uploads/world-map-png/globe-world-world-map-graphic-design-png-image-with-20.png) no-repeat center;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    background-color: #fff;
+}
+.blur-container-students{
+    backdrop-filter: blur(30px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.students-text-header{
+    text-align: center;
+}

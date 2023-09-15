@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/placement.css'
-import '../styles/snapscoll.css'
 
 function Placement() {
   return (

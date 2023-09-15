@@ -1,8 +1,6 @@
 import React from 'react'
 import Homedata from './Homedata'; // Import your component
 import '../styles/home.css'
-import Students from './Students';
-import Nav from './Nav'
 import Menu from './Menu';
 import homegif from '../images/user-interface.gif'
 const data = [

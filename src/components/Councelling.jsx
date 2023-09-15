@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../styles/snapscoll.css'
 import '../styles/councelling.css';
 import  bookimage from '../images/book.webp'
 import taskimage from '../images/task-time-8571374-6805197.webp'

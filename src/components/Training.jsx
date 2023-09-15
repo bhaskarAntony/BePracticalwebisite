@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/training.css'
-import '../styles/snapscoll.css'
-
+    
 function Training() {
   return (
     <section>

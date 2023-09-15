@@ -1,7 +1,6 @@
 import React from 'react';
 import AutoScrollCarousel from './AutoScrollCarousel'; // Import your component
 import AutoScrollCarousel2 from './AutoScrollCarousel'; // Import your component
-import '../styles/snapscoll.css'
 import '../styles/placed.css'
 import i1 from '../images/1.jpg'
 import i2 from '../images/2.jpg'
@@ -304,9 +303,6 @@ function Placed() {
         <div className="col-12 col-md-12 col-lg-6">
         <div className="certificate mb-3">
         <AutoScrollCarousel items={items} />
-        </div>
-        <div className="certificate mb-3">
-        <AutoScrollCarousel2 items={items2} />
         </div>
         </div>
       </div>

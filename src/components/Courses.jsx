@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/courses.css'
-import '../styles/snapscoll.css'
 
 function Courses() {
   return (

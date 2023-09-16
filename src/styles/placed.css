@@ -16,7 +16,7 @@
     max-height: 100%;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-    border: 4px solid rgb(251, 172, 14);
+    border: 4px solid #5b09d7;
 }
 .certificate{
     min-height: fit-content;
@@ -35,13 +35,13 @@
     background-size: cover;
 }
 .brand{
-    color: rgb(251, 172, 14);
+    color: #5b09d7;
 }
 .placed-section-text-scroll{
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgb(251, 172, 14);
+    background: #5b09d7;
     width: 100%;
     border: 2px solid #000;
     font-size: 1.5rem;
@@ -50,7 +50,7 @@
 .Enquire-btn{
     border: none;
     padding: 0;
-    background: rgb(251, 172, 14) !important;
+    background: #5b09d7 !important;
     color: #fff;
     font-size: 1rem;
     border-radius: 100px !important;
@@ -93,3 +93,25 @@
     min-width: 50vh;
     background-color: black;
 } */
+
+.gradient-text {
+    font-size: 10rem;
+position: relative; /* Required for the pseudo-element */
+color: black; /* Initial text color */
+overflow: hidden;
+}
+.gradient-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.616), transparent); /* White gradient */
+    transform: translateX(-100%); /* Initial position outside the text */
+    transition: transform 2s ease-in-out; /* Transition effect for the transform property */
+    }
+
+    .gradient-text:hover::before {
+    transform: translateX(100%); /* Move the gradient to the right on hover */
+    }

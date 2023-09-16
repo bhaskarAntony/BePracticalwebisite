@@ -9,7 +9,7 @@ function Adwantage() {
         {/* <div className="blur"></div>
         <div className="blur2"></div> */}
         <div className="adwantage-header p-5 text-center" data-aos="fade-up" data-aos-duration="1000">
-            <h1>TRAINING ADVANTAGE @ BE-PRACTICAL</h1>
+            <h1 className='text-white'>TRAINING ADVANTAGE @ BE-PRACTICAL</h1>
         </div>
         <div className="container">
         <div className="row">

@@ -5,7 +5,7 @@ function Course() {
   return (
     <>
      <div className="text-container  text-center bg-white">
-            <h3 className='training-header fs-1'>Take Our Best Courses</h3>
+            <h3 className='training-header fs-1  .gradient-text'>Take Our Best Courses</h3>
         </div>
    <div className="course-container-black">
    
@@ -59,8 +59,8 @@ function Course() {
                   Be-practicle digital marketing course in banglire offer comparehensive curriculam,practical projects nad flexible learning options
                 </div>
                  <div className="course-card" data-aos="zoom-in-up">
-                  <h3 className='course-name'>Cloud Computing</h3>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, blanditiis libero pariatur enim praesentium 
+                  <h3 className='course-name'>Data Science</h3>
+                  explore be-practical's data scince course in banglore,offering practical projects and flexible learning.unlock career opportunities 
                 </div>
                 {/*<div className="course-card">
                   <h3>Fullstack</h3>

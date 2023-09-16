@@ -107,8 +107,9 @@
     cursor: pointer;
     z-index: 10;
 }
-.company:hover .scroll1, .company:hover .scroll2{
-    animation-play-state: paused;
+.company:hover + .scroll1,
+.company:hover + .scroll2 {
+  animation-play-state: paused;
 }
 .inner{
     height: fit-content;

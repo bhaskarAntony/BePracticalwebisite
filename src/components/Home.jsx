@@ -53,8 +53,9 @@ animatedItems.forEach((item) => {
           <div className="col-12 col-md-12 col-lg-5">
             <div className="home-right">
               <Students/>
+               {/* <img src={homegif} alt="" />
 
-               {/* <div className="lan-icons icon1">
+               <div className="lan-icons icon1">
                <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/original/3d-python-programming-language-logo-free-png.png" alt="" />
                </div>
                <div className="lan-icons icon2">
@@ -71,8 +72,8 @@ animatedItems.forEach((item) => {
                </div>
                <div className="lan-icons icon6">
                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/java-script-8533752-6716439.png" alt="" />
-               </div>
-                */}
+               </div> */}
+               
                
                
               
@@ -149,7 +150,7 @@ animatedItems.forEach((item) => {
         <div className="divider-line-companies">
           
         </div>
-
+      y
     </div>
     </div>
   )

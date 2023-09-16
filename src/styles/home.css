@@ -442,7 +442,7 @@
 @media (max-width:528px){
     .home-left{
         padding: 10px;
-        min-height: 50vh;
+        min-height: 80vh;
         height: fit-content;
     }
     .home .row{

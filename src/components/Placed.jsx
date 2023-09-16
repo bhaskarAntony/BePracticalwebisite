@@ -312,9 +312,9 @@ function Placed() {
         </div>
         </div>
       </div>
-      <div className="placed-section-text-scroll">
+      {/* <div className="placed-section-text-scroll">
         <marquee behavior="scroll" direction="left"><span>Join Now <span className="text-white">Be Practicle's</span> 100% Placement Programs </span> <button className='btn bg-black text-white'>Join Now</button> </marquee>
-      </div>
+      </div> */}
     </div>
     </section>
   );

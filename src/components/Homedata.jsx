@@ -62,7 +62,7 @@ class Homedata extends Component {
               <p className="normaltext">{item.normaltext}</p>
               <div className="btn-container">
                 <button className="btn">Download Brochure</button>
-                <button className="btn">Book Our Free Demo Classes</button>
+                <button className="btn">Book Our Free Master Classes</button>
               </div>
               <div className="row mt-2">
                 <div className="col-12 col-sm-12 col-md-7">

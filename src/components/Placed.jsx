@@ -309,28 +309,6 @@ function Placed() {
         <div className="col-12 col-md-12 col-lg-6">
         <div className="certificate mb-3">
         <AutoScrollCarousel items={items} />
-        <div className="badge-container" data-aos="zoom-out-left">
-        <div className="brand-badge">
-          <span>B</span>
-          <span>E</span>
-          <span>P</span>
-          <span>R</span>
-          <span>A</span>
-          <span>C</span>
-          <span>T</span>
-          <span>I</span>
-          <span>C</span>
-          <span>A</span>
-          <span>L</span>
-
-          <div className="badge-center-text">
-            <div className="badge-circle">
-            <h3 className="fs-3">100%</h3>
-            </div>
-          </div>
-
-        </div>
-        </div>
         </div>
         </div>
       </div>

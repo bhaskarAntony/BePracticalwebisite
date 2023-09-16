@@ -1,3 +1,29 @@
+/* home-data  */
+
+/* In your CSS stylesheet */
+.carousel {
+    perspective: 1000px;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
 /* App.css */
 .carousel-item-content {
     transform: translateX(-100%);
@@ -17,6 +43,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.home-left{
+    /* background: #fff; */
+}
 .home-container-black{
     background-color:rgb(16, 17, 20) ;
 }
@@ -24,14 +53,14 @@
     min-height: 100vh;
     position: relative;
     overflow: hidden;
-    background: url('../images/blob-scene-haikei.svg') no-repeat center;
+    background: url('../images/layered-waves-haikei.svg') no-repeat center;
     background-size: cover;
     padding-bottom: 20px;
     border-radius: 0 0 20px 20px;
 }
 @media (max-width:968px){
     .home{
-        background: url('../images/blob-mobile.svg') no-repeat center;
+        background: url('../images/layered-waves-haikei-mobile.svg') no-repeat center;
          background-size: cover;
          padding: 0 !important;
     }
@@ -218,7 +247,7 @@
     grid-column-gap: 6px;
     color: #fff;
     text-align: center;
-    background-color: #000000;
+    background-color: #5b09d7;
     border-radius: 6px;
     justify-content: center;
     align-items: center;
@@ -235,7 +264,7 @@
     background-color: transparent;
     min-height: 80vh;
     border-radius: 30px;
-    color: #090909;
+    color: #121212;
     padding: 30px;
     
 }
@@ -413,7 +442,7 @@
 @media (max-width:528px){
     .home-left{
         padding: 10px;
-        min-height: fit-content;
+        min-height: 50vh;
         height: fit-content;
     }
     .home .row{

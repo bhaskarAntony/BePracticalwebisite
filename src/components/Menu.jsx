@@ -5,7 +5,7 @@ import '../styles/menu.css';
 function Menu() {
     
 return (
-<div class="container-fluid">
+<div class="">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img src="https://be-practical.com/images/Be-logo.png" alt="" /></a>

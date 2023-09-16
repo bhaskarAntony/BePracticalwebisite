@@ -37,33 +37,25 @@ function Skills() {
                     <div className="col-3 col-sm-6 col-md-6 col-lg-3 mb-2">
                       <div className="video">
                         <video src={hackethon} autoPlay muted loop onClick={() => handleVideoClick(hackethon)}></video>
-                        <div className="play-video" onClick={() => handleVideoClick(hackethon)}>
-                        <i class="bi bi-play-fill"></i>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="col-3 col-sm-6 col-md-6 col-lg-3 mb-2">
                       <div className="video">
                         <video src={video1} autoPlay muted loop onClick={() => handleVideoClick(video1)}></video>
-                        <div className="play-video" onClick={() => handleVideoClick(video1)}>
-                        <i class="bi bi-play-fill"></i>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="col-3 col-sm-6 col-md-6 col-lg-3 mb-2">
                       <div className="video">
                         <video src={video2} autoPlay muted loop onClick={() => handleVideoClick(video2)}></video>
-                        <div className="play-video" onClick={() => handleVideoClick(video2)}>
-                        <i class="bi bi-play-fill"></i>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="col-3 col-sm-6 col-md-6 col-lg-3 mb-2">
                       <div className="video">
                         <video src={video3} autoPlay muted loop onClick={() => handleVideoClick(video3)}></video>
-                        <div className="play-video" onClick={() => handleVideoClick(video3)}>
-                        <i class="bi bi-play-fill"></i>
-                        </div>
+                       
                       </div>
                     </div>
                   </div>

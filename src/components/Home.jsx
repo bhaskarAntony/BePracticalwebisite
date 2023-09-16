@@ -4,6 +4,7 @@ import '../styles/home.css'
 import Menu from './Menu';
 import homegif from '../images/user-interface.gif'
 import JoinModal from './JoinModal';
+import Students from './Students';
 const data = [
   {
     boldtext:"High Paid Salaries & Continuous Career Grouth",
@@ -51,9 +52,9 @@ animatedItems.forEach((item) => {
           </div>
           <div className="col-12 col-md-12 col-lg-5">
             <div className="home-right">
-               <img src={homegif} alt="" />
+              <Students/>
 
-               <div className="lan-icons icon1">
+               {/* <div className="lan-icons icon1">
                <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/original/3d-python-programming-language-logo-free-png.png" alt="" />
                </div>
                <div className="lan-icons icon2">
@@ -71,7 +72,7 @@ animatedItems.forEach((item) => {
                <div className="lan-icons icon6">
                <img src="https://cdn3d.iconscout.com/3d/premium/thumb/java-script-8533752-6716439.png" alt="" />
                </div>
-               
+                */}
                
                
               
@@ -148,58 +149,7 @@ animatedItems.forEach((item) => {
         <div className="divider-line-companies">
           
         </div>
-       <div className="border-colored">
-       <div className="register p-2 align-items-center">
-          <div className=" p-2 rounded-1 py-3">
-            <div className="card-header-text">
-              <span className="fs-3 text-center">Register For Free Demo Session</span>
-            </div>
-          <div className="row mt-2">
-            <div className="col-12 col-sm-12 col-md-5 col-lg-5">
-              <div className="row">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                  <div className="form-group">
-                    <label htmlFor="name" className="form-label">Enter Your Name</label>
-                    <input type="text" placeholder='Name' className='form-control' />
-                  </div>
-                </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <div className="form-group">
-                  <label htmlFor='email' className="form-label">Email Address</label>
-                  <input type="email" placeholder='Email' className='form-control' />
-                 </div> 
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-md-5 col-lg-5">
-              <div className="row">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                 <div className="form-group">
-                  <label htmlFor='phone' className="form-label">Mobile Number</label>
-                  <input type="number" placeholder='Phone' className='form-control' />
-                 </div>
-                </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                 <div className="form-group form-group-last">
-                  <label htmlFor="course" className="form-label">Select Course</label>
-                  <select className='form-control'>
-                    <option value="mern">MERN</option>
-                    <option value="mern">Python Fullstack</option>
-                    <option value="mern">Java Fullstack</option>
-                    <option value="mern">Data Science</option>
-                    <option value="mern">Cloud Computing</option>
-                  </select>
-                 </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-md-2 col-lg-2 col-btn">
-              <button>Join Now</button>
-            </div>
-          </div>
-          </div>
-        </div>
-       </div>
+
     </div>
     </div>
   )

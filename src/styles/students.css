@@ -1,18 +1,57 @@
-.students-container{
-    background: url(https://www.freepnglogos.com/uploads/world-map-png/globe-world-world-map-graphic-design-png-image-with-20.png) no-repeat center;
-    background-size: cover;
-    min-height: 70vh;
-    position: relative;
-    background-color: #fff;
+.all-students-container{
+
 }
-.blur-container-students{
-    backdrop-filter: blur(30px);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
+.students-flex{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
 }
-.students-text-header{
-    text-align: center;
+.students-flex .student{
+   width: 100px;
+   height: 100px;
+   border-radius: 100px;
+   border: 4px solid #fff;
+   position: relative;
+   /* z-index: 1; */
+}
+.student::before{
+   content: "";
+   position: absolute;
+   width: 3px;
+   height: 100%;
+   background-color: #fff;
+   left: 50%;
+   bottom: -100%;
+   z-index: -1;
+}
+.student::after{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   background-color: #fff;
+   left: -100%;
+   top: 50%;
+   z-index: -1;
+}
+.students-flex .student:nth-child(even){
+   width: 50px;
+   height: 50px;
+}
+.students-flex .student:nth-child(3n+4){
+   width: 80px;
+   height: 80px;
+}
+.students-flex .student:nth-child(5n){
+   width: 30px;
+   height: 30px;
+}
+.students-flex .student:nth-child(7n){
+   width: 150px;
+   height: 150px;
+}
+.students-flex .student img{
+   width: 100%;
+   border-radius: 100px;
+   height: 100%;
+   /* z-index: 100; */
 }

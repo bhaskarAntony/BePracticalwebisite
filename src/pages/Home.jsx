@@ -26,17 +26,17 @@ function Home() {
     <div className='homepage'>
       <Header/>
       <Elite/>
-      {/* <Courses/> */}
-      <Councelling/>
       <Course/>
+
+      <Councelling/>
 
       <Companies/>
       <Skills/>
-      <Socialicons/>
       <Training/>
       {/* <Students/>  */}
       <Placed/>
       <Adwantage/>
+      <Socialicons/>
       <Footer/>
     </div>
   )

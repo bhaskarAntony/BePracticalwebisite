@@ -40,11 +40,11 @@ function Training() {
                   <div className="training-right">
                       <video src={placementvideo} autoPlay loop controls>
                       </video>
-                      <div className="play-training-video">
+                      {/* <div className="play-training-video">
                      <div className="play-anim-container">
                      <i class="bi bi-play-fill"></i>
                      </div>
-                      </div>
+                      </div> */}
 
                     </div>
                   </div>

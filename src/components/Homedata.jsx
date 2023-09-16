@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import '../styles/home.css';
 
-const carouselStyle = {
-  height: '100%',
-};
 
 class Homedata extends Component {
   constructor(props) {
@@ -46,7 +43,6 @@ class Homedata extends Component {
       <Carousel
         activeIndex={activeIndex}
         onSelect={() => {}}
-        style={carouselStyle}
         indicators={false}
         pause="hover"
         onMouseEnter={this.handleMouseEnter}
@@ -55,11 +51,12 @@ class Homedata extends Component {
         {this.props.items.map((item, index) => (
           <Carousel.Item
             key={index}
-            className={index === activeIndex ? 'active' : ''}
+            classNam e={index === activeIndex ? 'active' : ''}
           >
             <div className="carousel-content">
               <h2 className="boldtext">{item.boldtext}</h2>
               <p className="normaltext">{item.normaltext}</p>
+    
               <div className="btn-container">
                 <button className="btn">Download Brochure</button>
                 <button className="btn">Book Our Free Master Classes</button>

@@ -30,7 +30,8 @@ function Course() {
                   <div className="course-card-curve"></div>
                  <div>
                  <h3 className='course-name'>Full-stack</h3>
-                  weprovide full stack develoment course in bang;ore with placement assistance and flexible payment option
+                  <p>we provide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
+                  <button className='btn coursebtn'>Join Now</button>
                  </div>
                  <div className="row">
                   <div className="col-4">
@@ -53,14 +54,17 @@ function Course() {
                 <div className="course-card" data-aos="zoom-in-up">
                   <h3 className='course-name'>Cloud - computing</h3>
                   Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training 
+                  <button className='btn coursebtn mt-3 w-100'>Join Now</button>
                 </div>
                 <div className="course-card" data-aos="zoom-in-up">
                   <h3 className='course-name'>Digital marketing</h3>
                   Be-practicle digital marketing course in banglire offer comparehensive curriculam,practical projects nad flexible learning options
+                  <button className='btn coursebtn mt-3 w-100'>Join Now</button>
                 </div>
                  <div className="course-card" data-aos="zoom-in-up">
                   <h3 className='course-name'>Data Science</h3>
                   explore be-practical's data scince course in banglore,offering practical projects and flexible learning.unlock career opportunities 
+                  <button className='btn coursebtn mt-3 w-100'>Join Now</button>
                 </div>
                 {/*<div className="course-card">
                   <h3>Fullstack</h3>

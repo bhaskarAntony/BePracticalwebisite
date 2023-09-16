@@ -16,6 +16,7 @@ import Course from '../components/Course'
 import Students from '../components/Students'
 import JoinModal from '../components/JoinModal'
 import Socialicons from '../components/Socialicons'
+import Menu from '../components/Menu'
 
 
 function Home() {
@@ -24,6 +25,8 @@ function Home() {
   }, []);
   return (
     <div className='homepage'>
+      <Menu/>
+
       <Header/>
       <Elite/>
       <Course/>

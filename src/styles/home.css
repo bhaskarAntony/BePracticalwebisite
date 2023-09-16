@@ -453,7 +453,7 @@
    
 }
 @media (max-width:600px){
-    .card{
+    .register .card{
         background-color: #5b09d7 !important;
     }
     .card-header-text{

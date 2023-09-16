@@ -38,7 +38,7 @@ function Training() {
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 border-layout2">
                   <div className="training-right">
-                      <video src={placementvideo} autoPlay loop controls>
+                      <video src={placementvideo} autoPlay loop controls muted>
                       </video>
                       {/* <div className="play-training-video">
                      <div className="play-anim-container">

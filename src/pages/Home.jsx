@@ -15,6 +15,7 @@ import AOS from 'aos';
 import Course from '../components/Course'
 import Students from '../components/Students'
 import JoinModal from '../components/JoinModal'
+import Socialicons from '../components/Socialicons'
 
 
 function Home() {
@@ -31,6 +32,7 @@ function Home() {
 
       <Companies/>
       <Skills/>
+      <Socialicons/>
       <Training/>
       {/* <Students/>  */}
       <Placed/>

@@ -5,6 +5,7 @@ function Elite() {
   return (
     <div className="container-black container-fluid">
       <div className='elite-section'>
+
       {/* <div className="blur">
 
       </div> */}

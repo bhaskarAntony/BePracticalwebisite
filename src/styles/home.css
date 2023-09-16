@@ -435,7 +435,7 @@
         border-radius: 0px;
         background: transparent;
         padding: 20px 5px;
-        color: #080808;
+        color: #ffffff;
         max-height: fit-content;
     }
     .btn-container button{
@@ -448,16 +448,19 @@
         margin-top: 10px;
     }
     .card-header-text{
-        color: #000;
+        color: #ffffff;
     }
    
 }
 @media (max-width:600px){
+    .boldtext{
+        color: #fff !important;
+    }
     .register .card{
         background-color: #5b09d7 !important;
     }
     .card-header-text{
-        color: #000;
+        color: #ffffff;
     }
     .border-colored{
         min-height: 90vh;
@@ -467,11 +470,18 @@
     }
     .card-header-text{
         text-align: center;
-        color: #000000;
+        color: #ffffff;
         margin-bottom: 40px;
     }
     .btn-container button{
         width: 100% !important;
+        font-size: 0.6rem;
+        background-color: #edb716;
+        color: #000;
+    }
+    .home-left button{
+        color: #000;
+        background-color: #edb716;
     }
     .form-control{
         margin-bottom: 10px;
@@ -489,6 +499,10 @@
     } */
     .get-in-touch button{
         width: 100%;
+    }
+    .lan-icons img{
+        max-width: 50px;
+        height: 50px;
     }
     /* .form-group:before{
         content:"";
@@ -523,11 +537,17 @@
     .card button{
         margin-top: 0;
     } */
+    .home{
+        background: #5b09d7 !important;
+    }
     .card .form-group-last{
         margin-bottom: 0;
     }
     .card{
         position: relative;
+    }
+    .carousel-box{
+        color: #fff !important;
     }
     @keyframes arrow-anim{
         from{

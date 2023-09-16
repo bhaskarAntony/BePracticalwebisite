@@ -16,6 +16,12 @@
     margin: 90px auto 50px;
     transform:scale(2.1)
  }
+ @media (max-width:528px){
+   .animation{
+      transform: scale(1);
+   }
+   
+ }
  /* .user::before {
     content: '';
     display: block;

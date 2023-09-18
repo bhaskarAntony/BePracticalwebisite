@@ -110,10 +110,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong className='text-left card-name-header'>About Course</strong>
                             <p>we provide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">
@@ -153,10 +153,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong className='text-left card-name-header'>About Course</strong>
                             <p>we provide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer  bg-transparent border-0">
@@ -196,10 +196,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong>About this course</strong>
                             <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer  bg-transparent border-0">
@@ -239,10 +239,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong>About this course</strong>
                             <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">
@@ -282,10 +282,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong>About this course</strong>
                             <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">
@@ -325,10 +325,10 @@ function Course() {
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
                           </li>
-                          <li className="list-group-item">
+                          {/* <li className="list-group-item">
                             <strong>About this course</strong>
                             <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">

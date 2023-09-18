@@ -59,107 +59,94 @@
     width: 200px;
 }
 
-.course-right {
+/* .course-right {
     min-height: 80vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-}
+} */
 
-.course-card {
-    padding: 20px;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-}
+ /* courses names  */
 
-.course-card:nth-child(1) {
+ .languages-group{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.course-card .course-icon {
-    padding: 10px;
-    background-color: #101114; /* Updated background color */
+    flex-flow: row wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    list-style-type: none;
+ }
+ .languages-group [class*="l-"]{
+    padding: 0 5px;
+    font-size: small;
     border-radius: 100px;
-    border: 2px solid #fff;
-    height: 80px;
-    width: 80px;
+ }
+ .l-html{
+    background-color: #ff4be46b;
+    color: #b70da0;
+ }
+ .l-css{
+    background-color: #1447466b;
+    color: #014f40;
+ }
+ .l-b{
+    background-color: #6d10f76b;
+    color: #400376;
+ }
+ .l-js{
+    background-color: #eadc0e6b;
+    color: #7d8800;
+ }
+ .l-react{
+    background-color: #0278ff6b;
+    color: #003d6b;
+ }
+ .l-node{
+    background-color: #02572a6b;
+    color: #044c17;
+ }
+ .l-ex{
+    background-color: #3338016b;
+    color: #0a1502;
+ }
+ .l-monogo{
+    background-color: #08d6276b;
+    color: #012107;
+ }
+ .l-python{
+    background-color: #00267e6b;
+    color: #030457;
+ }
+ .l-dgango{
+    background-color: #00267e6b;
+    color: #030457;
+ }
+ .touch-btns{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5 !important;
-}
-
-.course-card .course-icon img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.course-right .course-card:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    background-color: #eac04c; /* Updated background color */
-}
-
-.course-right .course-card:nth-child(2) {
-    background-color: #590cea; /* Updated background color */
-    grid-row-start: 1;
-    grid-row-end: 3;
-    color: #fff;
-}
-
-.course-right .course-card:nth-child(3) {
-    background-color: aliceblue;
-}
-.coursebtn{
-    display: none !important;
-    background-color: #590cea !important;
-     color: #fff !important;
-}
-.course-card:hover .coursebtn{
-    display: block !important;
-}
-.course-card:hover {
-    background: #fff !important;
-    box-shadow: 0px 0px 10px #8e8d8d;
-    cursor: pointer;
-    color: #101114 !important;
-    transition: 1s;
-}
-
-.course-right .course-card:nth-child(3) {
-    background-color: #e5475c; /* Updated background color */
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
+    gap: 10px;
+ }
+ .touch-btns button{
     width: 100%;
-    grid-row-end: 6;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+ }
+ .join-btn{
+    background-color: #0768b2;
+   
+ }
+ .course-card{
+    box-shadow: 0px 0px 30px #e7e6e6;
+    border-radius: 20px !important;
+    padding: 20px !important;
+ }
+ .whatsapp-btn{
+
+    background-color: #02891b;
     color: #fff;
-}
-
-.course-right .course-card:nth-child(4) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    width: 100%;
-    grid-row-end: 6;
-    background-color: #71eea3; /* Updated background color */
-    color: #1d1d1d;
-}
-
-.course-right .course-card:nth-child(6) {
-    background-color: #9d9e9f; /* Updated background color */
-}
-
-.course-name {
-    font-weight: 600;
-    margin-bottom: 10px;
-}
+ }
 
 @media (max-width: 600px) {
     .course-right {

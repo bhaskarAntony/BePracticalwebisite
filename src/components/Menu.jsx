@@ -29,7 +29,7 @@ return (
                                     <div className="col-lg-4 col-md-6">
                                     <span className="fs-5">FullStack Devolopment</span>
                                         <ul className='p-0'>
-                                            <li><a href="https://be-practical.com/mern-stack-development-training/">MERN FullStack</a></li>
+                                            <li><a href="/mern-fullstack">MERN FullStack</a></li>
                                             <li><a href="https://be-practical.com/python-fullstack/">MEAN FullStack</a></li>
                                             <li><a href="https://be-practical.com/java-fullstack-developer-course/">Java FullStack</a></li>
                                             <li><a href="https://be-practical.com/python-fullstack/">Python FullStack</a></li>

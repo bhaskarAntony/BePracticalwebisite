@@ -150,13 +150,13 @@
 }
 .home-right .icon2{
     top:50px;
-    left: 20px;
+    left: 10px;
     animation: icons-anim 1s ease-in-out infinite alternate;
     animation-delay: 0.4s;
 }
 .home-right .icon3{
     top:100px;
-    right: 10%;
+    right: 0%;
     animation: icons-anim 1s ease-in-out infinite alternate;
     animation-delay: 0.6s;
 }

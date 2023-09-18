@@ -82,10 +82,10 @@ function Course() {
    /
    <div className="container-fluid">
    <div className="row">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div className=" card course-card mt-3 border-0">
-                      <div className="card-header bg-transparent border-0">
-                        <img src="" alt="" className="card-img-top" />
+                      <div className="card-header bg-transparent border-0 p-0 ">
+                        <img src="https://www.bigscal.com/wp-content/uploads/2022/09/Features-of-Mern-stack-development-services-You-Should-Know.png" alt="" className="card-img-top" />
                       </div>
                       <div className="card-body p-1">
                         <ul className="list-group m-0">
@@ -109,28 +109,32 @@ function Course() {
                                   <li className="l-ex">Express Js</li>
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>About Course</strong>
+                            <p>we provide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
                           </li>
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">
                         <div className='touch-btns'>
-                          <button className="text-white join-btn">Join Now</button>
-                          <button className="text-white whatsapp-btn">Enquire</button>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
                         </div>
                       </div>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div className=" card course-card mt-3 border-0">
-                      <div className="card-header bg-transparent border-0">
-                        <img src="" alt="" className="card-img-top" />
+                      <div className="card-header bg-transparent border-0 p-0 mb-2">
+                        <img src="https://www.educative.io/v2api/editorpage/5896473996165120/image/6461289576005632" alt="" className="card-img-top rounded-2" />
                       </div>
                       <div className="card-body p-1">
                         <ul className="list-group m-0">
                           <li className="list-group-item">
                          <strong className='text-left card-name-header'>Course </strong>
-                         <p> MERN Fullstack Devolopment</p>
+                         <p> Python Fullstack devolopment</p>
                           </li>
                           <li className="list-group-item">
                             <strong className='text-left card-name-header'>Duration</strong>
@@ -148,28 +152,32 @@ function Course() {
                                   <li className="l-ex">Express Js</li>
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>About Course</strong>
+                            <p>we provide full stack develoment course in bang;ore with placement assistance and flexible payment option</p>
                           </li>
                         </ul>
                       </div>
                       <div className="card-footer  bg-transparent border-0">
                         <div className='touch-btns'>
-                          <button className="text-white join-btn">Join Now</button>
-                          <button className="text-white whatsapp-btn">Enquire</button>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
                         </div>
                       </div>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div className=" card course-card mt-3 border-0">
-                      <div className="card-header  bg-transparent border-0">
-                        <img src="" alt="" className="card-img-top" />
+                      <div className="card-header  bg-transparent border-0 p-0 mb-2">
+                        <img src="https://img1.wallspic.com/previews/8/8/2/3/6/163288/163288-logo_java_full_stack-java-programming_language-javascript-standing-x750.jpg" alt="" className="card-img-top rounded-2" />
                       </div>
                       <div className="card-body p-1">
                         <ul className="list-group m-0">
                           <li className="list-group-item">
                          <strong className='text-left card-name-header'>Course </strong>
-                         <p> MERN Fullstack Devolopment</p>
+                         <p>Java Fullstack devolopment </p>
                           </li>
                           <li className="list-group-item">
                             <strong className='text-left card-name-header'>Duration</strong>
@@ -187,28 +195,32 @@ function Course() {
                                   <li className="l-ex">Express Js</li>
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong>About this course</strong>
+                            <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
                           </li>
                         </ul>
                       </div>
                       <div className="card-footer  bg-transparent border-0">
                         <div className='touch-btns'>
-                          <button className="text-white join-btn">Join Now</button>
-                          <button className="text-white whatsapp-btn">Enquire</button>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
                         </div>
                       </div>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div className=" card course-card mt-3 border-0">
-                      <div className="card-header  bg-transparent border-0">
-                        <img src="" alt="" className="card-img-top" />
+                      <div className="card-header  bg-transparent border-0 p-0 mb-2">
+                        <img src="https://e0.pxfuel.com/wallpapers/602/164/desktop-wallpaper-diploma-certification-in-cloud-computing-with-gcp-cloud-technology.jpg" alt="" className="card-img-top rounded-2" />
                       </div>
                       <div className="card-body p-1">
                         <ul className="list-group m-0">
                           <li className="list-group-item">
                          <strong className='text-left card-name-header'>Course </strong>
-                         <p> MERN Fullstack Devolopment</p>
+                         <p> Cloud Computing</p>
                           </li>
                           <li className="list-group-item">
                             <strong className='text-left card-name-header'>Duration</strong>
@@ -226,13 +238,103 @@ function Course() {
                                   <li className="l-ex">Express Js</li>
                                   <li className="l-monogo">MongoDB</li>
                               </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong>About this course</strong>
+                            <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
                           </li>
                         </ul>
                       </div>
                       <div className="card-footer bg-transparent border-0">
                         <div className='touch-btns'>
-                          <button className="text-white join-btn">Join Now</button>
-                          <button className="text-white whatsapp-btn">Enquire</button>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div className=" card course-card mt-3 border-0">
+                      <div className="card-header  bg-transparent border-0 p-0 mb-2">
+                        <img src="https://w0.peakpx.com/wallpaper/868/23/HD-wallpaper-digital-marketing-consulting-services-strait-web-solutions-seo-marketing-thumbnail.jpg" alt="" className="card-img-top rounded-2" />
+                      </div>
+                      <div className="card-body p-1">
+                        <ul className="list-group m-0">
+                          <li className="list-group-item">
+                         <strong className='text-left card-name-header'>Course </strong>
+                         <p> Digital Marketing</p>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>Duration</strong>
+                            <p>4 + 2 Months</p>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>Launguages you learn</strong>
+                            <ul className='languages-group'>
+                                  <li className="l-html">HTML</li>
+                                  <li className="l-css">CSS</li>
+                                  <li className="l-b">Boostrap</li>
+                                  <li className="l-js">JavaScript</li>
+                                  <li className="l-react">React Js</li>
+                                  <li className="l-node">Node Js</li>
+                                  <li className="l-ex">Express Js</li>
+                                  <li className="l-monogo">MongoDB</li>
+                              </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong>About this course</strong>
+                            <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="card-footer bg-transparent border-0">
+                        <div className='touch-btns'>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div className=" card course-card mt-3 border-0">
+                      <div className="card-header  bg-transparent border-0 mb-2 p-0">
+                        <img src="https://meritglobaltraining.com/backend/uploads/d4ff46aff362d7b990c01213860ef911.png" alt="" className="card-img-top rounded-2" />
+                      </div>
+                      <div className="card-body p-1">
+                        <ul className="list-group m-0">
+                          <li className="list-group-item">
+                         <strong className='text-left card-name-header'>Course </strong>
+                         <p> Data Science</p>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>Duration</strong>
+                            <p>4 + 2 Months</p>
+                          </li>
+                          <li className="list-group-item">
+                            <strong className='text-left card-name-header'>Launguages you learn</strong>
+                            <ul className='languages-group'>
+                                  <li className="l-html">HTML</li>
+                                  <li className="l-css">CSS</li>
+                                  <li className="l-b">Boostrap</li>
+                                  <li className="l-js">JavaScript</li>
+                                  <li className="l-react">React Js</li>
+                                  <li className="l-node">Node Js</li>
+                                  <li className="l-ex">Express Js</li>
+                                  <li className="l-monogo">MongoDB</li>
+                              </ul>
+                          </li>
+                          <li className="list-group-item">
+                            <strong>About this course</strong>
+                            <p> Be pacricle is software training institute in banglore that provide programs for people looking for cloud computing training </p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="card-footer bg-transparent border-0">
+                        <div className='touch-btns'>
+                          <button className="text-white join-btn"><i class="bi bi-send-check"></i> Join Now</button>
+                          <button className="text-white whatsapp-btn"><i class="bi bi-whatsapp"></i> Enquire</button>
                         </div>
                       </div>
                     </div>

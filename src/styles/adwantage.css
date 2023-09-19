@@ -49,32 +49,32 @@
     bottom: -10px;
     left: 40%;
 } */
-.adwantage-card [class*="bi"]{
+.adwantage-card .card-header [class*="bi"]{
     font-size: 2.5em;
-    background-color: #ffffff;
-    color: #6f6f6f;
+    background-color: #cdd9ff;
+    color: #247bee;
     min-width: 100px !important;
     min-height: 100px !important;
     padding: 0px 10px;
     border-radius: 100px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: fit-content;
     padding: 10px;
-    border: 4px solid #101010;
     
 }
 .adwantage-card:hover{
     cursor: pointer;
 }
-.adwantage-card:hover [class*="bi-"]{
+.adwantage-card:hover .card-header [class*="bi-"]{
     background: #3858f8;
     color: #ffffff;
-    border: 4px solid #000;
 }
 .adwantage-card:hover .adwance-btn{
+    border: none;
     background: #3858f8;
     color: #ffffff;
-    border: 2px solid #000;
 }
 .adwance-btn{
     border: 0;

@@ -312,10 +312,21 @@ function Placed() {
         </div>
         </div>
       </div>
+    
       {/* <div className="placed-section-text-scroll">
         <marquee behavior="scroll" direction="left"><span>Join Now <span className="text-white">Be Practicle's</span> 100% Placement Programs </span> <button className='btn bg-black text-white'>Join Now</button> </marquee>
       </div> */}
     </div>
+    <div className="services">
+       <div className="row">
+        <div className="col-12 col-sm-12 col-md-9 col-lg-9">
+        <span className="fs-2">We run all kinds of IT services that make your success</span>
+        </div>
+        <div className="col-12 col-sm-12 col-md-3 col-lg-3 text-lg-end text-sm-center">
+        <button className="btn bg-primary text-white p-2">Let's Talk Now</button>
+        </div>
+       </div>
+      </div>
     </section>
   );
 }

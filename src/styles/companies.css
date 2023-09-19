@@ -9,6 +9,7 @@
     background-color: rgb(255, 255, 255);
     color: #0a0a0a;
     height: fit-content;
+    padding: 0;
 
 }
 
@@ -21,7 +22,7 @@
 .company{
     width: 230px;
     height: 150px;
-    background-color: rgb(252, 232, 206);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,8 +114,11 @@
 }
 .inner{
     height: fit-content;
-    background: rgb(245, 245, 245);
+    background: url(https://html.ditsolution.net/techno/assets/images/glob-bg.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(236, 248, 255);
     border-radius: 20px;
+    margin: 0;
 }
 @media (max-width:998px){
     .company{

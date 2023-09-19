@@ -4,10 +4,10 @@
 
 .councellingmain{
     min-height: 100vh;
-    padding: 8% 20px;
     min-width: 100%;
+    padding: 10px;
     max-width: 100%;
-    background-color: #c8c5cd70;
+    background-color: #e5e5e770;
     border-radius: 20px 20px 0px 0px !important;
 
 }
@@ -35,7 +35,7 @@ border: 0;
 background: var(--color);
 font-size: 1.2em;
 border-radius: 30px;
-/* box-shadow: 0px 0px 10px #DFCCFB; */
+box-shadow: 0px 0px 10px #DFCCFB;
 position: relative;
 overflow: hidden;
 }

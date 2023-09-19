@@ -37,10 +37,11 @@ animatedItems.forEach((item) => {
   return (
     <div className="home-container-black">
       <div className='home container-fluid'>
+        <Menu/>
       <JoinModal/>
-      {/* <div className="blur">
+      <div className="blur">
 
-      </div> */}
+      </div>
         <div className="row">
           <div className="col-12 col-md-12 col-lg-7">
             <div className="home-left">
@@ -149,8 +150,8 @@ animatedItems.forEach((item) => {
         <div className="divider-line-companies">
           
         </div>
-        <div className="register p-2 align-items-center">
-          <div className="card p-2 rounded-1 py-3">
+        <div className="register p-2 align-items-center rounded-0">
+          <div className="card p-2 rounded-0 py-3">
             <div className="card-header-text text-center w-100">
               <span className="fs-3 text-center">Register For Free Demo Session</span>
             </div>

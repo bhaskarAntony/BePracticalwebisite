@@ -130,8 +130,14 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 @media (max-width:768px){
+    .skillsmain{
+        padding: 0;
+    }
     .video{
         min-height: 100%;
+    }
+    .video-status{
+        gap: 0;
     }
 }
 .play-video:hover{

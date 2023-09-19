@@ -2,8 +2,8 @@
     z-index: 10;
     background: #fff;
     font-weight: 600;
-    background-color: #001C30;
-    box-shadow: 0px 0px 20px #021219;
+    background-color: transparent;
+    /* box-shadow: 0px 0px 20px #021219; */
 }
  .navbar .dropdown-menu{
     left: 0;
@@ -80,7 +80,7 @@
 .divider-line {
     height: 1.2px;
     opacity: .32;
-    background-image: linear-gradient(to right, rgba(3, 3, 3, 0), #000000 50%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(164, 38, 180, 0), #db9ee9 50%, rgba(0, 0, 0, 0));
     padding-right: 0;
 }
 .dropdown-menu{

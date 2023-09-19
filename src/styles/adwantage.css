@@ -1,14 +1,12 @@
 .adwantage{
-    /* background-image: linear-gradient(#0e0b13, #18141d); */
-    background: #5b09d7 ;
+    background: #ffffff ;
     min-height: 100vh;
     position: relative;
-    border-radius: 20px;
 }
 .adwantage-card{
-    min-height:250px;
+    min-height:320px;
     color: #fff;
-    background: transparent;
+    background: #fff;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -16,6 +14,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    box-shadow: 0 0 10px #dad9d9;
+    border-radius: 20px;
 }
 .adwantage-card .card-header{
     background-color: transparent;
@@ -23,7 +23,7 @@
  .adwantage-card p{
    font-size: 1.2em;
    margin-top: 10px;
-   color: #ffffff;
+   color: #484646;
 }
 .adwantage-header{
     font-weight: 600;
@@ -35,7 +35,7 @@
 } */
 .adwantage-card h4{
     font-size: 1.4em;
-    color: #ffffff;
+    color: #3858f8;
     font-weight: 600;
     position: relative;
 }
@@ -51,7 +51,8 @@
 } */
 .adwantage-card [class*="bi"]{
     font-size: 2.5em;
-    background-color: #000000;
+    background-color: #ffffff;
+    color: #6f6f6f;
     min-width: 100px !important;
     min-height: 100px !important;
     padding: 0px 10px;
@@ -59,8 +60,30 @@
     display: block;
     max-width: fit-content;
     padding: 10px;
-    border: 4px solid #fff;
+    border: 4px solid #101010;
     
+}
+.adwantage-card:hover{
+    cursor: pointer;
+}
+.adwantage-card:hover [class*="bi-"]{
+    background: #3858f8;
+    color: #ffffff;
+    border: 4px solid #000;
+}
+.adwantage-card:hover .adwance-btn{
+    background: #3858f8;
+    color: #ffffff;
+    border: 2px solid #000;
+}
+.adwance-btn{
+    border: 0;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000;
+    border: 1px solid #484646;
+    border-radius: 100px;
 }
 
 .blur, .blur2{

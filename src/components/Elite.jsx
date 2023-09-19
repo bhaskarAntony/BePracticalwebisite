@@ -52,7 +52,7 @@ function Elite() {
           <div className="col-12 col-sm-12 col-md-3 col-lg-2">
             <div className="elite-card  elite-c6" data-aos="zoom-out-up">
             <i class="bi bi-building-fill-up"></i>
-              <h4 className='elite-card-text-main'>Add-Onse</h4>
+              <h4 className='elite-card-text-main'>Add-On's</h4>
             </div>
           </div>
         </div>

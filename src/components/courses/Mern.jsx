@@ -10,7 +10,11 @@ function Mern() {
     <div className='container-fluid course-page-container'>
       <div className="row">
         <div className="col-12 col-sm-12 col-md-6 col-lg-7">
-          <h1>Mern stack</h1>
+        <div class="jumbotron text-white">
+          <h1>Hello, world!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe molestias voluptates distinctio magni esse itaque officiis? Minus, autem? Atque architecto labore quia earum ipsa consectetur quis? Excepturi, nesciunt aspernatur. </p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-5">
             <Register_form/>
